@@ -8,6 +8,13 @@
   --light-red: #d42a41;
   --lighter-red: #eb4b5b;
 }
+
+/* utilitis */
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
 /* resset style */
 *,
 *::after,
@@ -17,10 +24,4 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-}
-
-/* width and height boxing */
-.container {
-  max-width: 1280px;
-  margin: 0px auto;
 }
