@@ -1,3 +1,13 @@
+:root{
+  --black : #090909;
+  --white : #ffffff;
+  --light-Beige : #dec7a0;
+  --dark-Beige : #c4a287;
+  --dark-red : #7b070b;
+  --main-red : #ba042d;
+  --light-red : #d42a41;
+  --lighter-red : #eb4b5b;
+}
 /* resset style */
 *,
 *::after,
@@ -5,11 +15,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-ul,
-ol {
   list-style-type: none;
-}
-a {
   text-decoration: none;
 }
