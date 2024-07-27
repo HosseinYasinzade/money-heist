@@ -84,7 +84,7 @@
     scale: 100% 1;
   }
   to {
-    translate: 0 0;
+    translate: 0;
     scale: 100% 1;
   }
 }
@@ -123,6 +123,20 @@
   background-color: var(--dark-red);
   border-radius: 20px;
   margin-left: 20px;
+}
+.header-main-right {
+  animation-duration: 3s;
+  animation-name: goLeft;
+}
+@keyframes goLeft {
+  from {
+    translate: 30vh 0;
+    scale: 100% 1;
+  }
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
 }
 .header-poster {
   width: 300px;
