@@ -48,7 +48,11 @@
   display: flex;
 }
 .menu-item {
-  padding: 0 10px;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+}
+.menu-item:hover {
+  border-top: 2px solid var(--white);
 }
 .menu-btn1 {
   padding: 10px 20px;
@@ -57,8 +61,7 @@
   padding: 10px 20px;
   background-color: var(--main-red);
   border-radius: 20px;
-  box-shadow: 1px 1px 2px var(--white);
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .menu-btn2:hover {
   background-color: var(--white);
