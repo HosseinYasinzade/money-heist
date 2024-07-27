@@ -52,7 +52,8 @@
   transition: all 0.3s ease-in;
 }
 .menu-item:hover {
-  border-top: 2px solid var(--white);
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
 }
 .menu-btn1 {
   padding: 10px 20px;
@@ -149,5 +150,5 @@
 }
 .header-poster {
   width: 300px;
-  height: 40vh;
+  height: 50vh;
 }
