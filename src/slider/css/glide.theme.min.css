@@ -16,6 +16,7 @@
   transition: opacity 150ms ease, border 300ms ease-in-out;
   transform: translateY(-50%);
   line-height: 1;
+  font-size: .7rem !important;
 }
 .glide__arrow:focus {
   outline: none;
@@ -24,10 +25,10 @@
   border-color: #fff;
 }
 .glide__arrow--left {
-  left: 2em;
+  left: -5em;
 }
 .glide__arrow--right {
-  right: 2em;
+  right: -5em;
 }
 .glide__arrow--disabled {
   opacity: 0.33;
