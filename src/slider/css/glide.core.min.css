@@ -53,3 +53,7 @@
 .glide--rtl {
   direction: rtl;
 } /*# sourceMappingURL=glide.core.min.css.map */
+img{
+  width: 100%;
+  height: 100%;
+}

@@ -28,13 +28,12 @@
 /* Header style */
 
 .header {
-  height: 100vh;
+  height: 130vh;
   background: linear-gradient(to top, #090909f8, #090909c7),
     url("../../assets/images/background.jpg") no-repeat;
   background-size: cover;
 }
 .menu {
-  /* padding-top: 5vh; */
   padding: 20px 0px;
   display: flex;
   justify-content: space-between;
@@ -75,7 +74,6 @@
   justify-content: space-between;
   align-items: center;
   height: 70vh;
-  /* 100% with parent */
   width: 100%;
 }
 .header-main-left {
@@ -158,5 +156,9 @@
   width: 350px;
   margin-right: auto;
   margin-left: auto;
-  /* height: 40vh; */
 }
+/* started slider styles area*/
+.slider-section {
+  padding: 100px 50px;
+}
+/* end slider styles area*/
