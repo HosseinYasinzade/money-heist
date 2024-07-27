@@ -1,5 +1,5 @@
 :root {
-  --black: #090909;
+  --black: #09090909;
   --white: #ffffff;
   --light-Beige: #dec7a0;
   --dark-Beige: #c4a287;
@@ -8,13 +8,11 @@
   --light-red: #d42a41;
   --lighter-red: #eb4b5b;
 }
-
 /* utilitis */
 .container {
   max-width: 1280px;
   margin: 0px auto;
 }
-
 /* resset style */
 *,
 *::after,
@@ -25,4 +23,45 @@
   list-style-type: none;
   text-decoration: none;
   background-color: var(--black);
+  color: var(--white);
+  font-size: 20px;
+}
+/* Header style */
+
+.header {
+  height: 100vh;
+  background: linear-gradient(to top, #090909f8, #090909c7),
+    url("../../assets/images/background.jpg") no-repeat;
+  background-size: cover;
+}
+.menu {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  width: 60px;
+  height: 60px;
+}
+.menu-items {
+  display: flex;
+}
+.menu-item {
+  padding: 0 10px;
+}
+.menu-btn1 {
+  padding: 10px 20px;
+}
+.menu-btn2 {
+  padding: 10px 20px;
+  background-color: var(--main-red);
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px var(--white);
+  transition: all 0.5s ease;
+}
+.menu-btn2:hover {
+  background-color: var(--white);
+  color: var(--main-red);
+  box-shadow: none;
 }
