@@ -178,8 +178,8 @@
 .section-6 {
   height: 70vh;
   background-color: #ea1111;
-  background: linear-gradient(to top, #090909eb, #090909fa),
-    url("../../assets/images/background.jpg") no-repeat;
+  background: linear-gradient(to top, #090909f8, #090909c7),
+    url("../../assets/images/slider-images/slider-img4.jpg   ") no-repeat;
   background-size: cover;
 }
 .sec6-box {
@@ -221,6 +221,7 @@
 .sec6-content-box > p {
   font-size: 20px;
   margin: 30px 0px;
+  text-align: justify;
 }
 .sec6-button-box {
   margin-top: 50px;
@@ -230,11 +231,11 @@
   background-color: var(--main-red);
   border-radius: 20px;
   transition: all 0.3s ease-in;
-  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 .sec6-button-1:hover {
   background-color: var(--black);
   border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 
 .sec6-button-2 {
@@ -243,10 +244,10 @@
   border-radius: 20px;
   margin-left: 20px;
   transition: all 0.3s ease-in;
-  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 .sec6-button-2:hover {
   background-color: var(--black);
   border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 /* end section 6 styles*/
