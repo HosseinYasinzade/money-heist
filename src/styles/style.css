@@ -178,14 +178,9 @@
 .section-6 {
   height: 70vh;
   background-color: #ea1111;
-  background: linear-gradient(to top, #090909f8, #090909c7),
+  background: linear-gradient(to top, #090909eb, #090909fa),
     url("../../assets/images/background.jpg") no-repeat;
   background-size: cover;
-}
-
-.sec6-container {
-  max-width: 1280px;
-  margin: 0px auto;
 }
 .sec6-box {
   display: flex;
