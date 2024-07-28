@@ -1,199 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Heist</title>
+    <!-- glide.js library css -->
+    <link rel="stylesheet" href="./src/slider/css/glide.core.min.css" />
+    <link rel="stylesheet" href="./src/slider/css/glide.theme.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Money Heist</title>
-  <!-- glide.js library css -->
-  <link rel="stylesheet" href="./src/slider/css/glide.core.min.css">
-  <link rel="stylesheet" href="./src/slider/css/glide.theme.min.css">
-  <!-- custom css -->
-  <link rel="stylesheet" href="./src/styles/style.css" />
-</head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="menu">
+          <img
+            src="./assets/images/netflix-logo.png"
+            alt="NetFlix logo"
+            class="header-logo"
+          />
+          <ul class="menu-items">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">Trailer</a></li>
+            <li class="menu-item"><a href="#">Synopsis</a></li>
+            <li class="menu-item"><a href="#">Scene</a></li>
+            <li class="menu-item"><a href="#">Info</a></li>
+          </ul>
+          <div class="menu-btns">
+            <a href="#" class="menu-btn1">Login</a>
+            <a href="#" class="menu-btn2">Log Out</a>
+          </div>
+        </nav>
+        <section class="header-main">
+          <div class="header-main-left">
+            <div class="info-boxes">
+              <span class="info-box info-box1">Action</span>
+              <span class="info-box info-box2">2017</span>
+              <span class="info-box info-box3">Spain</span>
+            </div>
+            <h1 class="site-title">MONEY HEIST</h1>
+            <p class="header-main-description">
+              To carry out the biggest heist in history, a mysterious man called
+              The Professor recruits a band of eight robbers who have a single
+              characteristic: none of them has anything to lose.
+            </p>
+            <div class="header-main-links">
+              <a href="#" class="header-main-link1"> &#9998; More Synopsis</a>
+              <a href="#" class="header-main-link2">&#9737; Trailer</a>
+            </div>
+          </div>
+          <div class="header-main-right">
+            <img
+              src="./assets/images/poster.jpg"
+              alt="poster"
+              class="header-poster"
+            />
+          </div>
+        </section>
+        <!-- section slider -->
+        <section class="slider-section">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img1.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img2.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img3.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img4.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img8.jpg"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                prev
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                next
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <nav class="menu">
-        <img src="./assets/images/netflix-logo.png" alt="NetFlix logo" class="header-logo" />
-        <ul class="menu-items">
-          <li class="menu-item"><a href="#">Home</a></li>
-          <li class="menu-item"><a href="#">Trailer</a></li>
-          <li class="menu-item"><a href="#">Synopsis</a></li>
-          <li class="menu-item"><a href="#">Scene</a></li>
-          <li class="menu-item"><a href="#">Info</a></li>
-        </ul>
-        <div class="menu-btns">
-          <a href="#" class="menu-btn1">Login</a>
-          <a href="#" class="menu-btn2">Log Out</a>
+    <section class="home1">
+      <div class="home-content-container">
+        <div class="video-container">
+          <video class="video" width="600" controls>
+            <source src="./assets/videos/b.jpg.mp4" type="video/mp4" />
+          </video>
         </div>
-      </nav>
-      <section class="header-main">
-        <div class="header-main-left">
-          <div class="info-boxes">
-            <span class="info-box info-box1">Action</span>
-            <span class="info-box info-box2">2017</span>
-            <span class="info-box info-box3">Spain</span>
+
+        <div class="title-content">
+          <div class="btn-container">
+            <a class="btn-top-1" href="#">Genre</a>
+            <a class="btn-top-2" href="#">Created by</a>
+            <a class="btn-top-3" href="#">Original language</a>
           </div>
-          <h1 class="site-title">MONEY HEIST</h1>
-          <p class="header-main-description">
-            To carry out the biggest heist in history, a mysterious man called
-            The Professor recruits a band of eight robbers who have a single
-            characteristic: none of them has anything to lose.
-          </p>
-          <div class="header-main-links">
-            <a href="#" class="header-main-link1"> &#9998; More Synopsis</a>
-            <a href="#" class="header-main-link2">&#9737; Trailer</a>
+          <div class="title-container">
+            <h1 class="title">The name of the series:Money Heist</h1>
           </div>
-        </div>
-        <div class="header-main-right">
-          <img src="./assets/images/poster.jpg" alt="poster" class="header-poster" />
-        </div>
-      </section>
-      <!-- section slider -->
-      <section class="slider-section">
-        <div class="glide">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img1.jpg" alt="">
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img2.jpg" alt="">
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img3.jpg" alt="">
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img4.jpg" alt="">
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img8.jpg" alt="">
-              </li>
-            </ul>
+          <div class="title-desc">
+            <p class="desc">
+              The Money Heist series is a crime and thriller series from Spain,
+              and the original name of the series is Lacasa de Papel, which
+              means house of paper. The heads of Netflix have said that the
+              reason for changing the name of the Money Heist series in English
+              is to avoid its resemblance to the House of Cards series. Money
+              Heist was originally slated for a 15-episode run on Antenna TV in
+              2017, before Netflix acquired the rights in 2019. With the huge
+              investment of the Netflix network, the production of other seasons
+              of this series continued and so far 4 seasons have been released.
+              The complex and very strong script of the Money Heist series and
+              the attractive performances of the actors have distinguished this
+              series from many other series in this category.
+            </p>
           </div>
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+          <div class="btn-box">
+            <a href="#">More movies</a>
+            <a href="#">Button</a>
           </div>
         </div>
-      </section>
-    </div>
-  </header>
-  <!-- about actor => cena -->
-  <section class="section-actors">
-    <div class="container">
-      <div class="section-actors-container">
-        <div class="about-actors">
-          <div class="movie-img-container">
-            <img class="movie-img" src="./assets/images/about-movie-poster/poster.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="home-page">
+      <div class="home-page-content">
+        <div>
+          <a class="btn-but-top-1" href="#"> Genre</a>
+          <a class="btn-but-top-2" href="#">Created by</a>
+          <a class="btn-but-top-3" href="#">Original language</a>
+        </div>
+        <h1>The name of the series:Money Heist</h1>
+        <p>
+          The story of the money theft series is about a group of professional
+          thieves with a personal management named Professor. The professor, who
+          is the mastermind of this group, designs a big robbery plan from the
+          National Mint of Spain. He has thought and worked for years to plan
+          this plan accurately and smartly, and now it is time to implement his
+          plan. Each of the thieves in this group has their own reasons for
+          cooperating with the professor's plan. In order not to reveal their
+          identity, the members of this group choose the name of one of the
+          different capitals of the world according to the professor's order.
+          Names like Moscow, Berlin, Tokyo, Nairobi, Denver, Oslo, Rio and
+          Helsinki. Their robbery plan succeeds with many risks and dangers and
+          just at the moment when they think they have failed. During this
+          operation, the professor and his team manage to commit a historical
+          robbery and rob the Spanish National Mint.
+        </p>
+        <div class="btn-box1">
+          <a href="#">More movies</a>
+          <a href="#">Button</a>
+        </div>
+      </div>
+      <span class="home-imghover"></span>
+    </section>
+    <!-- about actor => cena -->
+    <section class="section-actors">
+      <div class="container">
+        <div class="section-actors-container">
+          <div class="about-actors">
+            <div class="movie-img-container">
+              <img
+                class="movie-img"
+                src="./assets/images/about-movie-poster/poster.jpg"
+                alt=""
+              />
+            </div>
+            <div class="movie-desc">
+              <div class="movie-desc-title">
+                <h2>THE HUMGER GAMES :</h2>
+                <h2>MONEY HEIST</h2>
+              </div>
+              <div class="movie-desc-description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  in repellat fugiat non est corporis beatae, odit blanditiis
+                  assumenda qui labore magni nobis aut hic, sapiente voluptas
+                  architecto reprehenderit similique?
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Officia iure doloremque corrupti sequi. Quo obcaecati quisquam
+                  dicta labore, reiciendis aliquam?
+                </p>
+              </div>
+            </div>
+            <div class="movie-about-actors">
+              <div class="about-more-actors">
+                <img
+                  class="about-more-image"
+                  src="./assets/images/actors/3748301.jpg"
+                  alt=""
+                />
+                <h5>some information about actor</h5>
+              </div>
+              <div class="about-more-actors">
+                <img
+                  class="about-more-image"
+                  src="./assets/images/actors/alvaro-morte_6.jpg"
+                  alt=""
+                />
+                <h5>some information about actor</h5>
+              </div>
+              <div class="about-more-actors">
+                <img
+                  class="about-more-image"
+                  src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg"
+                  alt=""
+                />
+                <h5>some information about actor</h5>
+              </div>
+              <div class="about-more-actors">
+                <img
+                  class="about-more-image"
+                  src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg"
+                  alt=""
+                />
+                <h5>some information about actor</h5>
+              </div>
+            </div>
           </div>
-          <div class="movie-desc">
-            <div class="movie-desc-title">
-              <h2>THE HUMGER GAMES :</h2>
-              <h2>MONEY HEIST</h2>
-            </div>
-            <div class="movie-desc-description">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed in repellat fugiat non est
-                corporis beatae, odit blanditiis assumenda qui labore magni nobis aut hic, sapiente voluptas
-                architecto reprehenderit similique?
-              </p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia iure doloremque corrupti
-                sequi. Quo obcaecati quisquam dicta labore, reiciendis aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="movie-about-actors">
-            <div class="about-more-actors">
-              <img class="about-more-image" src="./assets/images/actors/3748301.jpg" alt="">
-              <h5>some information about actor</h5>
-            </div>
-            <div class="about-more-actors">
-              <img class="about-more-image" src="./assets/images/actors/alvaro-morte_6.jpg" alt="">
-              <h5>some information about actor</h5>
-            </div>
-            <div class="about-more-actors">
-              <img class="about-more-image" src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg" alt="">
-              <h5>some information about actor</h5>
-            </div>
-            <div class="about-more-actors">
-              <img class="about-more-image"
-                src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg" alt="">
-              <h5>some information about actor</h5>
+        </div>
+
+        <div class="section-actors-slide">
+          <div class="actors-slid">
+            <div class="actors-slid-container">
+              <div class="actor-sliders">
+                <img
+                  class="actors-images"
+                  src="./assets/images/actors/3748301.jpg"
+                  alt="actor-image"
+                />
+                <div class="actors-description">
+                  <h4>actor name</h4>
+                  <a href="#">actor link</a>
+                </div>
+              </div>
+              <div class="actor-sliders">
+                <img
+                  class="actors-images"
+                  src="./assets/images/actors/alvaro-morte_6.jpg"
+                  alt="actor-image"
+                />
+                <div class="actors-description">
+                  <h4>actor name</h4>
+                  <a href="#">actor link</a>
+                </div>
+              </div>
+              <div class="actor-sliders">
+                <img
+                  class="actors-images"
+                  src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg"
+                  alt="actor-image"
+                />
+                <div class="actors-description">
+                  <h4>actor name</h4>
+                  <a href="#">actor link</a>
+                </div>
+              </div>
+              <div class="actor-sliders">
+                <img
+                  class="actors-images"
+                  src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg"
+                  alt="actor-image"
+                />
+                <div class="actors-description">
+                  <h4>actor name</h4>
+                  <a href="#">actor link</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-  
-      <div class="section-actors-slide">
-        <div class="actors-slid">
-          <div class="actors-slid-container">
-            <div class="actor-sliders">
-              <img class="actors-images" src="./assets/images/actors/3748301.jpg" alt="actor-image">
-              <div class="actors-description">
-                <h4>actor name</h4>
-                <a href="#">actor link</a>
-              </div>
-            </div>
-            <div class="actor-sliders">
-              <img class="actors-images" src="./assets/images/actors/alvaro-morte_6.jpg" alt="actor-image">
-              <div class="actors-description">
-                <h4>actor name</h4>
-                <a href="#">actor link</a>
-              </div>
-            </div>
-            <div class="actor-sliders">
-              <img class="actors-images" src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg" alt="actor-image">
-              <div class="actors-description">
-                <h4>actor name</h4>
-                <a href="#">actor link</a>
-              </div>
-            </div>
-            <div class="actor-sliders">
-              <img class="actors-images"
-                src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg" alt="actor-image">
-              <div class="actors-description">
-                <h4>actor name</h4>
-                <a href="#">actor link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- glide.js library js -->
-  <script src="./src/slider/js/glide.min.js"></script>
-  <!-- glide.js config -->
-  <script>
-    new Glide('.glide', {
-      animationDuration: 1000,
-      hoverpause: true,
-      autoplay: 3000,
-      type: 'carousel',
-      focusAt: 'center',
-      startAt: 1,
-      perView: 5,
-      peek: {
-        before: 60,
-        after: 60,
-      },
-      breakpoints: {
-        1280: {
-          perView: 4
+    </section>
+    <!-- glide.js library js -->
+    <script src="./src/slider/js/glide.min.js"></script>
+    <!-- glide.js config -->
+    <script>
+      new Glide(".glide", {
+        animationDuration: 1000,
+        hoverpause: true,
+        autoplay: 3000,
+        type: "carousel",
+        focusAt: "center",
+        startAt: 1,
+        perView: 5,
+        peek: {
+          before: 60,
+          after: 60,
         },
-        1080: {
-          perView: 3
+        breakpoints: {
+          1280: {
+            perView: 4,
+          },
+          1080: {
+            perView: 3,
+          },
+          640: {
+            perView: 2,
+          },
         },
-        640: {
-          perView: 2
-        }
-      }
-    }).mount()
-  </script>
-  <!-- custom script -->
-  <script src="./src/scripts/script.js"></script>
-</body>
-
+      }).mount();
+    </script>
+    <!-- custom script -->
+    <script src="./src/scripts/script.js"></script>
+  </body>
 </html>
