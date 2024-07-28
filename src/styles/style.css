@@ -166,6 +166,7 @@
 /* ********************** */
 /* started about movie and slider actors */
 .section-actors {
+  padding-top: 60px;
   width: 1280px;
   height: 100%;
   margin-right: auto;
@@ -234,7 +235,7 @@
   justify-items: center !important;
 }
 .actor-sliders {
-  width: 280px;
+  width: 240px;
   height: 100%;
   position: relative;
 }
