@@ -56,13 +56,35 @@ body {
   background: var(--main-red);
 }
 /* header => hossein */
-header {
-  height: 100vh;
+.alvaro-header {
   background: linear-gradient(#090909c7, #090909c7),
-    url("../../../assets/images/actors-header-image/Álvaro\ Morte.jpg")
-      no-repeat;
+    url("../../assets/images/actors-header-image/Álvaro\ Morte.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
   background-size: cover;
 }
+.pedro-header {
+  background: linear-gradient(#090909c7, #090909c7),
+    url("../../assets/images/actors-header-image/Pedro\ Alonso.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.itzair-header {
+  background: linear-gradient(#090909c7, #090909c7),
+    url("../../assets/images/actors-header-image/Itziar\ Ituño.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ursula-header {
+  background: linear-gradient(#090909c7, #090909c7),
+    url("../../assets/images/actors-header-image/úrsula\ corberó.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .nav-top {
   display: flex;
   justify-content: space-between;
