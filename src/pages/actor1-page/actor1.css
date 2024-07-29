@@ -114,12 +114,24 @@ header {
   color: var(--main-red);
 }
 
+@keyframes goRight {
+  from {
+    translate: -30vh 0;
+    scale: 100% 1;
+  }
+  to {
+    translate: 0;
+    scale: 100% 1;
+  }
+}
 .header-main {
+  animation-name: goRight;
+  animation-duration: 3s;
   margin-top: 150px;
   max-width: 600px;
 }
 .header-main-subTitle {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .header-main-title {
   font-size: 50px;
@@ -129,13 +141,25 @@ header {
   color: var(--main-red);
 }
 .header-main-description {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: justify;
   line-height: 1.5;
+}
+@keyframes goLeft {
+  from {
+    translate: 30vh 0;
+    scale: 100% 1;
+  }
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
 }
 .header-bottom {
   display: flex;
   justify-content: end;
+  animation-name: goLeft;
+  animation-duration: 3s;
   margin-top: 100px;
 }
 /* start winning-awards => cena */
