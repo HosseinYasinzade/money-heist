@@ -76,6 +76,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid #fff; */
+}
+.achievement{
+    margin: 0px 40px;
 }
 /* end winning-awards => cena */
