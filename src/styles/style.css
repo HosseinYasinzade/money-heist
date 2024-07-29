@@ -81,6 +81,13 @@ body {
 }
 .menu-btn1 {
   padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.menu-btn1:hover {
+  background-color: var(--black);
+  border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 .menu-btn2 {
   padding: 10px 20px;
@@ -89,9 +96,9 @@ body {
   transition: all 0.3s ease;
 }
 .menu-btn2:hover {
-  background-color: var(--white);
-  color: var(--main-red);
-  box-shadow: none;
+  background-color: var(--black);
+  border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 /* header main */
 .header-main {
@@ -149,22 +156,25 @@ body {
 }
 .header-main-link1:hover {
   background-color: var(--black);
+  border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 .header-main-link2 {
   padding: 10px 20px;
-  background-color: var(--dark-red);
+  background-color: var(--black);
   border-radius: 20px;
   margin-left: 20px;
   transition: all 0.3s ease-in;
 }
 .header-main-link2:hover {
   background-color: var(--black);
+  border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 .header-main-right {
   animation-duration: 3s;
   animation-name: goLeft;
   width: 45%;
-  padding-top: 50px;
 }
 @keyframes goLeft {
   from {
@@ -178,9 +188,10 @@ body {
 }
 .header-poster {
   display: block;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
+  width: 450px;
 }
 /* started slider styles area*/
 .slider-section {
@@ -230,7 +241,7 @@ body {
   transition: all 0.3s;
 }
 .btn-box a:nth-child(2) {
-  background-color: var(--dark-red);
+  background-color: var(--black);
 }
 .btn-box a:hover {
   background-color: var(--black);
@@ -338,29 +349,44 @@ body {
   height: 100%;
   position: relative;
 }
+
+.actor-sliders:hover .actors-images {
+  opacity: 0.3;
+}
+.actor-sliders:hover .actors-description {
+  opacity: 1;
+}
 .actors-images {
-  width: 100%;
   height: 100%;
-  display: block;
   border-radius: 5px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  /*height: auto;*/
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 .actors-description {
-  height: 60px;
+  height: 80px;
   text-align: center;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
   background: #0000009e;
-}
-.actors-description > h4 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   color: white;
-  padding-top: 8px;
+  font-size: 16px;
+  padding: 16px 32px;
+  width: 180px;
 }
-.actors-description > a {
-  color: #cacaca;
-  /* padding-top: 5px; */
+.actors-description:hover {
+  cursor: pointer;
+  border-radius: 15px;
 }
+
 /* end about movie and slider actors */
 
 /* started section 6 styles*/
@@ -394,13 +420,13 @@ body {
   margin: 0 10px;
 }
 .sec6-label-1 {
-  background-color: var(--dark-red);
+  background-color: var(--light-red);
 }
 .sec6-label-2 {
   background-color: var(--main-red);
 }
 .sec6-label-3 {
-  background-color: var(--light-red);
+  background-color: var(--dark-red);
   margin-right: 0px !important;
 }
 .sec6-content-box > h1 {
@@ -417,7 +443,7 @@ body {
 }
 .sec6-button-1 {
   padding: 10px 20px;
-  background-color: var(--main-red);
+  background-color: var(--light-red);
   border-radius: 20px;
   transition: all 0.3s ease-in;
 }
@@ -429,7 +455,7 @@ body {
 
 .sec6-button-2 {
   padding: 10px 20px;
-  background-color: var(--light-red);
+  background-color: var(--black);
   border-radius: 20px;
   margin-left: 20px;
   transition: all 0.3s ease-in;
