@@ -49,35 +49,47 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--main-red);
 }
+/* header => hossein */
+header {
+  height: 100vh;
+  background: linear-gradient(#090909c7, #090909c7),
+    url("../../../assets/images/actors-header-image/Álvaro\ Morte.jpg")
+      no-repeat;
+  background-size: cover;
+}
+.logo {
+  width: 300px;
+}
+
 /* start winning-awards => cena */
-.winning-awards-section{
-    /* background-image must set there */
-    background: #000;
+.winning-awards-section {
+  /* background-image must set there */
+  background: #000;
 }
-.winning-awards-container{
-    height: 350px;
-    padding: 40px 80px;
-    text-align: center;
+.winning-awards-container {
+  height: 350px;
+  padding: 40px 80px;
+  text-align: center;
 }
-.winning-awards-title{
-    margin-bottom: 35px;
+.winning-awards-title {
+  margin-bottom: 35px;
 }
-.winning-awards-title > h2{
-    font-size: 1.6rem;
+.winning-awards-title > h2 {
+  font-size: 1.6rem;
 }
-.winning-awards-desc{
-    margin-bottom: 35px;
+.winning-awards-desc {
+  margin-bottom: 35px;
 }
-.winning-awards-desc > p{
-    font-size: .7rem;
-    line-height: 26px;
+.winning-awards-desc > p {
+  font-size: 0.7rem;
+  line-height: 26px;
 }
-.winning-awards-achievement{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.winning-awards-achievement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.achievement{
-    margin: 0px 40px;
+.achievement {
+  margin: 0px 40px;
 }
 /* end winning-awards => cena */
