@@ -113,6 +113,25 @@ header {
 .menu-item :hover {
   color: var(--main-red);
 }
+
+.header-main {
+  margin-top: 150px;
+  max-width: 600px;
+}
+.header-main-subTitle {
+  margin-bottom: 50px;
+}
+.header-main-title {
+  font-size: 50px;
+}
+.header-main-title span {
+  font-size: 50px;
+  color: var(--main-red);
+}
+.header-main-description {
+  margin-top: 20px;
+  text-align: justify;
+}
 /* start winning-awards => cena */
 .winning-awards-section {
   /* background-image must set there */
