@@ -466,3 +466,17 @@ body {
   box-shadow: 0px 0px 38px 4px var(--dark-red);
 }
 /* end section 6 styles*/
+/* started footer styles*/
+.footer {
+  height: 70vh;
+  background: linear-gradient(to top, #2e0000db, #090909),
+    url("../../assets/images/footer.png") no-repeat;
+  background-size: cover;
+}
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
