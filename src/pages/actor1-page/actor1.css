@@ -127,8 +127,8 @@ header {
 .header-main {
   animation-name: goRight;
   animation-duration: 3s;
-  margin-top: 120px;
-  max-width: 600px;
+  margin-top: 90px;
+  width: 50%;
 }
 .header-main-subTitle {
   margin-bottom: 30px;
@@ -160,7 +160,9 @@ header {
   justify-content: end;
   animation-name: goLeft;
   animation-duration: 3s;
-  margin-top: 5%;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
 }
 /* start winning-awards => cena */
 .winning-awards-section {
