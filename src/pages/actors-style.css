@@ -220,3 +220,72 @@ body {
   margin: 0px 40px;
 }
 /* end winning-awards => cena */
+/* started footer styles*/
+.footer {
+  height: 50vh;
+  background: linear-gradient(to top, #250000e2, #090909),
+    url("../../assets/images/footer.png") no-repeat;
+  background-size: cover;
+}
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.footer-box-1 {
+  width: 35%;
+}
+
+.footer-box-1 > h1 {
+  font-size: 30px;
+}
+.footer-box-1 > h4 {
+  font-size: 15px;
+  margin: 15px 0px;
+}
+#email:focus {
+  background-color: var(--black);
+  border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
+}
+.footer-box-2 {
+  font-size: 15px;
+  margin: 15px 0px;
+  text-align: center;
+  width: 15%;
+}
+.footer-menu {
+  margin-top: 20px;
+}
+.footer-menu-item {
+  transition: all 0.3s ease-in;
+  margin: 8px;
+}
+.footer-menu-item > a:hover {
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
+}
+.footer-box-3 {
+  width: 35%;
+}
+.footer-box-3 h1 {
+  margin: 10px;
+  font-size: 28px;
+}
+.footer-box-3 p {
+  font-size: 18px;
+  margin: 10px;
+}
+.footer-box-4 {
+  width: 10%;
+}
+.footer-icon img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 10px;
+}
+.footer-icon img:hover {
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
+  border-radius: 10px;
+}
