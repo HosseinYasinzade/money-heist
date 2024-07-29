@@ -1,308 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Heist</title>
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="./assets/images/fav-icon/icons8-money-heist-dali-48.png"
+    />
+    <!-- glide.js library css -->
+    <link rel="stylesheet" href="./src/slider/css/glide.core.min.css" />
+    <link rel="stylesheet" href="./src/slider/css/glide.theme.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Money Heist</title>
-  <link type="image/png" sizes="96x96" rel="icon" href="./assets/images/fav-icon/icons8-money-heist-dali-48.png" />
-  <!-- glide.js library css -->
-  <link rel="stylesheet" href="./src/slider/css/glide.core.min.css" />
-  <link rel="stylesheet" href="./src/slider/css/glide.theme.min.css" />
-  <!-- custom css -->
-  <link rel="stylesheet" href="./src/styles/style.css" />
-</head>
-
-<body>
-  <header id="Header" class="header">
-    <div class="container">
-      <nav class="menu">
-        <img src="./assets/images/netflix-logo.png" alt="NetFlix logo" class="header-logo" />
-        <ul class="menu-items">
-          <li class="menu-item"><a href="#Header">Home</a></li>
-          <li class="menu-item"><a href="#Trailer">Trailer</a></li>
-          <li class="menu-item"><a href="#Synopsis">Synopsis</a></li>
-          <li class="menu-item"><a href="#Scene">Scene</a></li>
-          <li class="menu-item"><a href="#Info">Info</a></li>
-        </ul>
-        <div class="menu-btns">
-          <a href="#" class="menu-btn1">Login</a>
-          <a href="#" class="menu-btn2">Log Out</a>
-        </div>
-      </nav>
-      <section class="header-main">
-        <div class="header-main-left">
-          <div class="info-boxes">
-            <span class="info-box info-box1">Action</span>
-            <span class="info-box info-box2">2017</span>
-            <span class="info-box info-box3">Spain</span>
-          </div>
-          <h1 class="site-title">MONEY HEIST</h1>
-          <p class="header-main-description">
-            To carry out the biggest heist in history, a mysterious man called
-            The Professor recruits a band of eight robbers who have a single
-            characteristic: none of them has anything to lose.
-          </p>
-          <div class="header-main-links">
-            <a href="#" class="header-main-link1"> &#9998; More Synopsis</a>
-            <a href="#" class="header-main-link2">&#9737; Trailer</a>
-          </div>
-        </div>
-        <div class="header-main-right">
-          <img src="./assets/images/poster.png" alt="poster" class="header-poster" />
-        </div>
-      </section>
-      <!-- section slider -->
-      <section class="slider-section">
-        <div class="glide">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img1.jpg" alt="" />
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img2.jpg" alt="" />
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img3.jpg" alt="" />
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img4.jpg" alt="" />
-              </li>
-              <li class="glide__slide">
-                <img src="./assets/images/slider-images/slider-img8.jpg" alt="" />
-              </li>
-            </ul>
-          </div>
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-              prev
-            </button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-              next
-            </button>
-          </div>
-        </div>
-      </section>
-    </div>
-  </header>
-  <main>
-    <section id="Trailer" class="home1">
+  <body>
+    <header id="Header" class="header">
       <div class="container">
-        <div class="home-content-container">
-          <div class="video-container">
-            <video class="video" width="600" controls>
-              <source src="./assets/videos/Trailer.mp4" type="video/mp4" />
-            </video>
+        <nav class="menu">
+          <img
+            src="./assets/images/netflix-logo.png"
+            alt="NetFlix logo"
+            class="header-logo"
+          />
+          <ul class="menu-items">
+            <li class="menu-item"><a href="#Header">Home</a></li>
+            <li class="menu-item"><a href="#Trailer">Trailer</a></li>
+            <li class="menu-item"><a href="#Synopsis">Synopsis</a></li>
+            <li class="menu-item"><a href="#Scene">Scene</a></li>
+            <li class="menu-item"><a href="#Info">Info</a></li>
+          </ul>
+          <div class="menu-btns">
+            <a href="#" class="menu-btn1">Login</a>
+            <a href="#" class="menu-btn2">Log Out</a>
           </div>
-
-          <div class="title-content">
-            <div class="btn-container">
-              <span class="info-box info-box1">Genre</span>
-              <span class="info-box info-box2">Created by</span>
-              <span class="info-box info-box3">Original language</span>
+        </nav>
+        <section class="header-main">
+          <div class="header-main-left">
+            <div class="info-boxes">
+              <span class="info-box info-box1">Action</span>
+              <span class="info-box info-box2">2017</span>
+              <span class="info-box info-box3">Spain</span>
             </div>
-            <div class="title-container">
-              <h1 class="title">The name of the series:Money Heist</h1>
-            </div>
-            <div class="title-desc">
-              <p class="desc">
-                The Money Heist series is a crime and thriller series from
-                Spain, and the original name of the series is Lacasa de Papel,
-                which means house of paper. The heads of Netflix have said
-                that the reason for changing the name of the Money Heist
-                series in English is to avoid its resemblance to the House of
-                Cards series. Money Heist was originally slated for a
-                15-episode run on Antenna TV in 2017, before Netflix acquired
-                the rights in 2019.
-              </p>
-            </div>
-            <div class="btn-box">
-              <a href="#">More movies</a>
-              <a href="#">Button</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="Synopsis" class="home-section">
-      <div class="home-section-content">
-        <div>
-          <span class="info-box info-box1"> Genre</span>
-          <span class="info-box info-box2">Created by</span>
-          <span class="info-box info-box3">Original language</span>
-        </div>
-        <h2>The name of the series:Money Heist</h2>
-        <p>
-          The story of the money theft series is about a group of professional
-          thieves with a personal management named Professor. The professor,
-          who is the mastermind of this group, designs a big robbery plan from
-          the National Mint of Spain. He has thought and worked for years to
-          plan this plan accurately and smartly, and now it is time to
-          implement his plan. Each of the thieves in this group has their own
-          reasons for cooperating with the professor's plan. In order not to
-          reveal their identity, the members of this group choose the name of
-          one of the different capitals of the world according to the
-          professor's order. Names like Moscow, Berlin, Tokyo, Nairobi,
-          Denver, Oslo, Rio and Helsinki.
-        </p>
-
-        <div class="btn-box">
-          <a href="#">More movies</a>
-          <a href="#">Button</a>
-        </div>
-      </div>
-    </section>
-    <!-- start shayan section -->
-    <section id="Scene" class="section-6">
-      <div class="sec6-container container">
-        <div class="sec6-box">
-          <div class="video-box">
-            <video src="assets/videos/Trailer.mp4" controls></video>
-          </div>
-          <div class="sec6-content-box">
-            <div class="sec6-label-box">
-              <span class="sec6-label-1">content</span>
-              <span class="sec6-label-2">content</span>
-              <span class="sec6-label-3">content</span>
-            </div>
-            <h1>Lorem ipsum</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Impedit, optio? Enim laudantium vitae excepturi laboriosam error
-              ducimus id deleniti, quaerat necessitatibus soluta possimus.
-              Molestiae vero iste consequatur? Distinctio, tempore.
+            <h1 class="site-title">MONEY HEIST</h1>
+            <p class="header-main-description">
+              To carry out the biggest heist in history, a mysterious man called
+              The Professor recruits a band of eight robbers who have a single
+              characteristic: none of them has anything to lose.
             </p>
-            <div class="sec6-button-box">
-              <a class="sec6-button-1" href="#">content</a>
-              <a class="sec6-button-2" href="#">content</a>
+            <div class="header-main-links">
+              <a href="#" class="header-main-link1"> &#9998; More Synopsis</a>
+              <a href="#" class="header-main-link2">&#9737; Trailer</a>
             </div>
           </div>
-        </div>
+          <div class="header-main-right">
+            <img
+              src="./assets/images/poster.png"
+              alt="poster"
+              class="header-poster"
+            />
+          </div>
+        </section>
+        <!-- section slider -->
+        <section class="slider-section">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img1.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img2.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img3.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img4.jpg"
+                    alt=""
+                  />
+                </li>
+                <li class="glide__slide">
+                  <img
+                    src="./assets/images/slider-images/slider-img8.jpg"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                prev
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                next
+              </button>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
-    <!-- end shayan section -->
-    <!-- about actor => cena -->
-    <section id="Info" class="section-actors">
-      <div class="container">
-        <div class="section-actors-container">
-          <div class="about-actors">
-            <div class="movie-img-container">
-              <img class="movie-img" src="./assets/images/about-movie-poster/poster.jpg" alt="" />
+    </header>
+    <main>
+      <section id="Trailer" class="home1">
+        <div class="container">
+          <div class="home-content-container">
+            <div class="video-container">
+              <video class="video" width="600" controls>
+                <source src="./assets/videos/Trailer.mp4" type="video/mp4" />
+              </video>
             </div>
-            <div class="movie-desc">
-              <div class="movie-desc-title">
-                <h2>INFO :</h2>
-                <h2>MONEY HEIST</h2>
+
+            <div class="title-content">
+              <div class="btn-container">
+                <span class="info-box info-box1">Genre</span>
+                <span class="info-box info-box2">Created by</span>
+                <span class="info-box info-box3">Original language</span>
               </div>
-              <div class="movie-desc-description">
-                <p>
-                  The series was initially intended as a limited series to be told in two parts. It had its original run
-                  of 15 episodes on Spanish network Antena 3 from 2 May 2017 through 23 November 2017
+              <div class="title-container">
+                <h1 class="title">The name of the series:Money Heist</h1>
+              </div>
+              <div class="title-desc">
+                <p class="desc">
+                  The Money Heist series is a crime and thriller series from
+                  Spain, and the original name of the series is Lacasa de Papel,
+                  which means house of paper. The heads of Netflix have said
+                  that the reason for changing the name of the Money Heist
+                  series in English is to avoid its resemblance to the House of
+                  Cards series. Money Heist was originally slated for a
+                  15-episode run on Antenna TV in 2017, before Netflix acquired
+                  the rights in 2019.
                 </p>
-                <p>
-                  Netflix acquired global streaming rights in late 2017. It re-cut the series into 22 shorter episodes
-                  and released them worldwide, beginning with the first part on 20 December 2017, followed by the second
-                  part on 6 April 2018
-                </p>
               </div>
-            </div>
-            <div class="movie-about-actors">
-              <div class="about-more-actors">
-                <img class="about-more-image" src="./assets/images/actors/3748301.jpg" alt="" />
-                <h5>Berlín</h5>
-              </div>
-              <div class="about-more-actors">
-                <img class="about-more-image" src="./assets/images/actors/alvaro-morte_6.jpg" alt="" />
-                <h5>El Profesor</h5>
-              </div>
-              <div class="about-more-actors">
-                <img class="about-more-image"
-                  src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg" alt="" />
-                <h5>Raquel Murillo</h5>
-              </div>
-              <div class="about-more-actors">
-                <img class="about-more-image"
-                  src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg"
-                  alt="" />
-                <h5>Tokio</h5>
+              <div class="btn-box">
+                <a href="#">More movies</a>
+                <a href="#">Button</a>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="section-actors-slide">
-          <div class="section-actors-title">
-            <h2>actors</h2>
+      <section id="Synopsis" class="home-section">
+        <div class="home-section-content">
+          <div>
+            <span class="info-box info-box1"> Genre</span>
+            <span class="info-box info-box2">Created by</span>
+            <span class="info-box info-box3">Original language</span>
           </div>
-          <div class="actors-slid">
-            <div class="actors-slid-container">
-              <div class="actor-sliders">
-                <img class="actors-images" src="./assets/images/actors/3748301.jpg" alt="actor-image" />
-                <div class="actors-description">
-                  <a href="#">Pedro Alonso</a>
+          <h2>The name of the series:Money Heist</h2>
+          <p>
+            The story of the money theft series is about a group of professional
+            thieves with a personal management named Professor. The professor,
+            who is the mastermind of this group, designs a big robbery plan from
+            the National Mint of Spain. He has thought and worked for years to
+            plan this plan accurately and smartly, and now it is time to
+            implement his plan. Each of the thieves in this group has their own
+            reasons for cooperating with the professor's plan. In order not to
+            reveal their identity, the members of this group choose the name of
+            one of the different capitals of the world according to the
+            professor's order. Names like Moscow, Berlin, Tokyo, Nairobi,
+            Denver, Oslo, Rio and Helsinki.
+          </p>
+
+          <div class="btn-box">
+            <a href="#">More movies</a>
+            <a href="#">Button</a>
+          </div>
+        </div>
+      </section>
+      <!-- start shayan section -->
+      <section id="Scene" class="section-6">
+        <div class="sec6-container container">
+          <div class="sec6-box">
+            <div class="video-box">
+              <video src="assets/videos/Trailer.mp4" controls></video>
+            </div>
+            <div class="sec6-content-box">
+              <div class="sec6-label-box">
+                <span class="sec6-label-1">content</span>
+                <span class="sec6-label-2">content</span>
+                <span class="sec6-label-3">content</span>
+              </div>
+              <h1>Lorem ipsum</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Impedit, optio? Enim laudantium vitae excepturi laboriosam error
+                ducimus id deleniti, quaerat necessitatibus soluta possimus.
+                Molestiae vero iste consequatur? Distinctio, tempore.
+              </p>
+              <div class="sec6-button-box">
+                <a class="sec6-button-1" href="#">content</a>
+                <a class="sec6-button-2" href="#">content</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end shayan section -->
+      <!-- about actor => cena -->
+      <section id="Info" class="section-actors">
+        <div class="container">
+          <div class="section-actors-container">
+            <div class="about-actors">
+              <div class="movie-img-container">
+                <img
+                  class="movie-img"
+                  src="./assets/images/about-movie-poster/poster.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="movie-desc">
+                <div class="movie-desc-title">
+                  <h2>INFO :</h2>
+                  <h2>MONEY HEIST</h2>
+                </div>
+                <div class="movie-desc-description">
+                  <p>
+                    The series was initially intended as a limited series to be
+                    told in two parts. It had its original run of 15 episodes on
+                    Spanish network Antena 3 from 2 May 2017 through 23 November
+                    2017
+                  </p>
+                  <p>
+                    Netflix acquired global streaming rights in late 2017. It
+                    re-cut the series into 22 shorter episodes and released them
+                    worldwide, beginning with the first part on 20 December
+                    2017, followed by the second part on 6 April 2018
+                  </p>
                 </div>
               </div>
-              <div class="actor-sliders">
-                <img class="actors-images" src="./assets/images/actors/alvaro-morte_6.jpg" alt="actor-image" />
-                <div class="actors-description">
-                  <a href="./src/pages/actor1-page/actor1.html">Álvaro Morte</a>
+              <div class="movie-about-actors">
+                <div class="about-more-actors">
+                  <img
+                    class="about-more-image"
+                    src="./assets/images/actors/3748301.jpg"
+                    alt=""
+                  />
+                  <h5>Berlín</h5>
+                </div>
+                <div class="about-more-actors">
+                  <img
+                    class="about-more-image"
+                    src="./assets/images/actors/alvaro-morte_6.jpg"
+                    alt=""
+                  />
+                  <h5>El Profesor</h5>
+                </div>
+                <div class="about-more-actors">
+                  <img
+                    class="about-more-image"
+                    src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg"
+                    alt=""
+                  />
+                  <h5>Raquel Murillo</h5>
+                </div>
+                <div class="about-more-actors">
+                  <img
+                    class="about-more-image"
+                    src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg"
+                    alt=""
+                  />
+                  <h5>Tokio</h5>
                 </div>
               </div>
-              <div class="actor-sliders">
-                <img class="actors-images"
-                  src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg" alt="actor-image" />
-                <div class="actors-description">
-                  <a href="#">Itziar Ituño</a>
+            </div>
+          </div>
+
+          <div class="section-actors-slide">
+            <div class="section-actors-title">
+              <h2>actors</h2>
+            </div>
+            <div class="actors-slid">
+              <div class="actors-slid-container">
+                <div class="actor-sliders">
+                  <img
+                    class="actors-images"
+                    src="./assets/images/actors/3748301.jpg"
+                    alt="actor-image"
+                  />
+                  <div class="actors-description">
+                    <a href="#">Pedro Alonso</a>
+                  </div>
                 </div>
-              </div>
-              <div class="actor-sliders">
-                <img class="actors-images"
-                  src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg"
-                  alt="actor-image" />
-                <div class="actors-description">
-                  <a href="#">Úrsula Corberó</a>
+                <div class="actor-sliders">
+                  <img
+                    class="actors-images"
+                    src="./assets/images/actors/alvaro-morte_6.jpg"
+                    alt="actor-image"
+                  />
+                  <div class="actors-description">
+                    <a href="./src/pages/actor1-page/alvaro-morte.html"
+                      >Álvaro Morte</a
+                    >
+                  </div>
+                </div>
+                <div class="actor-sliders">
+                  <img
+                    class="actors-images"
+                    src="./assets/images/actors/itziar_itun_o_la_casa_de_papel_200812_ghos8tymfm.jpg"
+                    alt="actor-image"
+                  />
+                  <div class="actors-description">
+                    <a href="#">Itziar Ituño</a>
+                  </div>
+                </div>
+                <div class="actor-sliders">
+                  <img
+                    class="actors-images"
+                    src="./assets/images/actors/ursula-corbero-at-fiesta-multiopticas-photocall-in-madrid-09-12-2018-9.jpg"
+                    alt="actor-image"
+                  />
+                  <div class="actors-description">
+                    <a href="#">Úrsula Corberó</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <!-- glide.js library js -->
-  <script src="./src/slider/js/glide.min.js"></script>
-  <!-- glide.js config -->
-  <script>
-    new Glide(".glide", {
-      animationDuration: 1000,
-      hoverpause: true,
-      autoplay: 3000,
-      type: "carousel",
-      focusAt: "center",
-      startAt: 1,
-      perView: 5,
-      peek: {
-        before: 60,
-        after: 60,
-      },
-      breakpoints: {
-        1280: {
-          perView: 4,
+    <!-- glide.js library js -->
+    <script src="./src/slider/js/glide.min.js"></script>
+    <!-- glide.js config -->
+    <script>
+      new Glide(".glide", {
+        animationDuration: 1000,
+        hoverpause: true,
+        autoplay: 3000,
+        type: "carousel",
+        focusAt: "center",
+        startAt: 1,
+        perView: 5,
+        peek: {
+          before: 60,
+          after: 60,
         },
-        1080: {
-          perView: 3,
+        breakpoints: {
+          1280: {
+            perView: 4,
+          },
+          1080: {
+            perView: 3,
+          },
+          640: {
+            perView: 2,
+          },
         },
-        640: {
-          perView: 2,
-        },
-      },
-    }).mount();
-  </script>
-  <!-- custom script -->
-  <script src="./src/scripts/script.js"></script>
-</body>
-
+      }).mount();
+    </script>
+    <!-- custom script -->
+    <script src="./src/scripts/script.js"></script>
+  </body>
 </html>
