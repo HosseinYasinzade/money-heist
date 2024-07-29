@@ -30,6 +30,12 @@ body {
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.btn:hover {
+  background-color: var(--black);
+  border: 1px solid var(--dark-red);
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
+}
 /* text select color */
 ::selection {
   background: var(--dark-red);
@@ -84,6 +90,28 @@ header {
   padding: 10px 30px;
   background-color: var(--main-red);
   border-radius: 50px;
+  transition: all 0.3s;
+}
+.menu {
+  display: flex;
+}
+.menu-item {
+  margin: 20px;
+  position: relative;
+  transition: all 0.3s;
+}
+.item-vip::after {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 4px;
+  background-color: var(--white);
+  right: 0;
+  top: 30px;
+  border-radius: 10px;
+}
+.menu-item :hover {
+  color: var(--main-red);
 }
 /* start winning-awards => cena */
 .winning-awards-section {
