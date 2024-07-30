@@ -375,3 +375,35 @@ button:hover {
 .spen {
   display: flex;
 }
+
+/*------------------------------------------------*/
+
+div.gallery {
+  border: 1px solid var(--dark-red);
+}
+div.gallery:hover {
+  box-shadow: 0px 0px 38px 4px var(--dark-red);
+  border-radius: 5px;
+  filter: none;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+div.gallery img:hover {
+  filter: none;
+  border-radius: 5px;
+}
+.gallery-box {
+  padding: 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
