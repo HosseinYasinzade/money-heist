@@ -188,14 +188,14 @@ body {
 }
 /* start winning-awards => cena */
 .winning-awards-section {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   background: #000;
 }
 .winning-awards-container {
   height: 350px;
-  padding: 40px 80px;
+  padding: 0px 80px;
   text-align: center;
 }
 .winning-awards-title {
