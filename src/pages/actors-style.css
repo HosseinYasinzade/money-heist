@@ -293,7 +293,8 @@ body {
 .about {
   width: 100%;
   height: 100vh;
-  padding: 78px 0px;
+  display: flex;
+  align-items: center;
   background-color: black;
 }
 .about img {
@@ -334,39 +335,29 @@ body {
 }
 button {
   margin-top: 40px;
-  text-decoration: none;
-  font-weight: bold;
+  border: none;
   padding: 13px 30px;
   border-radius: 30px;
-  background-color: pink;
-  border: 1px solid transparent;
-  margin-bottom: 5px;
+  background-color: var(--dark-red);
 }
-button:hover {
-  background: transparent;
-  color: white;
-  border: 1px solid pink;
+.span-text {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .spen-1 {
-  background-color: blueviolet;
-  font-size: 18px;
+  background-color: var(--main-red);
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  text-align: center;
-  vertical-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .spen-2 {
-  background-color: blueviolet;
-  font-size: 18px;
+  background-color: var(--main-red);
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  text-align: center;
-  vertical-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
